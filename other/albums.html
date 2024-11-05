@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        
+        .header {
+            background-color: #1f3de9;
+            color: rgb(202, 223, 230);
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .navbar {
+            background-color: #47bfd7;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar a {
+            display: block;
+            color: rgb(11, 2, 12);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #d4c7c7;
+            color: black;
+        }
+
+        .content {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Welcome to My Music Website</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="/maranan/index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="albums.html">Albums</a>
+        <a href="contacts.html">Contact</a>
+    </div>
+
+    <div class="content">
+        <a href="albums.html"></a>
+        <h2>Top Album</h2>
+        <p>These are the best top 20 albums of the year 2024. Just click this link: <a href="https://www.albumoftheyear.org/ratings/6-highest-rated/2024/1" target="_blank">Top 20 Albums</a></p>
+        
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS70PebumVr8IsSnr3Hkp-mH5kdB3hCersKOg&s" alt="Top 20 Albums">
+            <p>Album Cover for Top 20 Albums</p>
+        </div>
+
+        <p>And these are the top 50 albums. Just click this link: <a href="https://www.billboard.com/lists/best-albums-2024-so-far/" target="_blank">Top 50 Albums</a></p>
+        
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlNLLuCVHapgXcc_6Cd12hZbwdP2yoxPpEOQ&s" alt="Top 50 Albums">
+            <p>Album Cover for Top 50 Albums</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 My Music Website. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
